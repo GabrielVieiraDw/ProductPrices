@@ -1,55 +1,45 @@
-## Hi, this is the product price app. This app should accept JSON file to upload and record product prices than list the filtering by country. This project is a monolith with a Ruby on Rails API in the backend and React in the frontend.
+<h1 align="center">
+    <p><span style="color:#00f0a2">Product Prices</span></p>
+</h1>
 
-### Back Repository
-* https://github.com/GabrielVieiraDw/ProductPricesApi
+<h3 align="center">
+  Hi, this is the product price app. This app should accept JSON file to upload and record product prices than list the filtering by country.
+</h3>
 
-### Technologies / Prerequisites
+<p align="center">This project is a monolith with a Ruby on Rails API in the backend and React in the frontend.</p>
+<p align="center">Back repository: https://github.com/GabrielVieiraDw/ProductPricesApi</p>
 
-This project was developed with the following technologies:
+---
+
+## Prerequisites
+
+Have the following features with their respective versions installed on the machine:
 
 * React 18.3.1
 * Material-UI 6.4.2
 * Axios 1.7.9
 * React Query
 
-### Installing Dependencies
+## Setup the project
 
-Before running the application, you need to install the required dependencies. Run the following commands inside the ProductPrices directory:
+After you get all the [prerequisites](#prerequisites), simply execute the following commands in sequence:
 
-* cd ProductPrices
-* npm install
+```bash
+1. Install the dependencies above
+2. $ git clone  # Clone the project
+3. $ cd ProductPrices # Go into the project folder
+4. $ npm install
+5. $ npm install @mui/material @emotion/react @emotion/styled
+6. $ npm install @tanstack/react-query
+7. $ npm install axios
+8. $ npm run dev
+```
 
-### Installing Material-UI
-
-Material-UI is used for styling the React application. If not installed, add it with:
-
-* npm install @mui/material @emotion/react @emotion/styled
-
-### Installing React Query
-
-React Query helps manage server-state efficiently. Install it with:
-
-* npm install @tanstack/react-query
-
-### Installing Axios
-
-Axios is used for making HTTP requests to the backend API. Install it with:
-
-* npm install axios
-
-### Usage
-
-After installing the dependencies, start the development server with:
-
-* npm run dev
-
-You can access the application at http://localhost:5173.
-
-## TODO
+## Feature improvements for next releases
 
 * Write documentation with Swagger
 * Add Docker support
 * Add pagination
 
---
+---
 Thanks for the opportunity, this was made with by Gabriel Vieira :wave:&nbsp; [Get in touch!](https://www.linkedin.com/in/gevvieira/)
