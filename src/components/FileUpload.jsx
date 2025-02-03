@@ -13,7 +13,7 @@ export default function FileUpload({ onUploadComplete }) {
     reader.onload = async (e) => {
       try {
         const jsonData = JSON.parse(e.target.result);
-        console.log("JSON sendo enviado:", jsonData);
+        console.log("Sending JSON:", jsonData);
 
         await axios.post(`${import.meta.env.VITE_API_URL}/prices`, jsonData, {
           headers: { "Content-Type": "application/json" },
@@ -21,7 +21,7 @@ export default function FileUpload({ onUploadComplete }) {
 
         onUploadComplete();
       } catch (error) {
-        console.error("Erro ao processar JSON antes do envio", error);
+        console.error("Error processing JSON", error);
       }
     };
 

@@ -19,10 +19,9 @@ export default function App() {
     setLoading(true);
     try {
       const response = await axios.get(`${import.meta.env.VITE_API_URL}/prices?country=${country}`);
-      console.log(response);
       setPrices(response.data);
     } catch (error) {
-      console.error("Erro ao buscar preços", error);
+      console.error("Error to find prices", error);
     } finally {
       setLoading(false);
     }
