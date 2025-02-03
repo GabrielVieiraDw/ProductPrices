@@ -45,7 +45,7 @@ After installing the dependencies, start the development server with:
 
 You can access the application at http://localhost:5173.
 
-# TODO
+## TODO
 
 * Write documentation with Swagger
 * Add Docker support
